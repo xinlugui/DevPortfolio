@@ -12,6 +12,7 @@ export type ExperienceDetails = {
   darkModeLogo?: string | StaticImageData;
   logoAlt: string;
   position: string;
+  companyName: string;
   currentlyWorkHere?: boolean;
   startDate: Date;
   endDate?: Date;
